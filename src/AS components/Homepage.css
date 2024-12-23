@@ -1,0 +1,357 @@
+/* ===============Abhishek Solanki css===========  */
+:root {
+    --primary: #933ded;
+    --dark: rgb(251, 251, 235);
+    --pure: #fff;
+    --smoke: whitesmoke;
+    --dark-grey: #999;
+    --black: #000;
+}
+
+
+.nav-wrapper {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7%;
+    top: 0;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid black;
+
+}
+
+.brand {
+    position: relative;
+    width: 233px;
+    height: 100%;
+    background-color: rgb(255, 255, 255, .5);
+}
+
+.brand img {
+    min-width: 100%;
+    height: 100%;
+}
+
+.nav-wrapper ul.nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.nav-wrapper ul.nav-list li {
+    padding: 20px 0;
+}
+
+.nav-wrapper ul.nav-list li a {
+    color: var(--black);
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease-in-out;
+    padding: 13px 20px;
+}
+
+.nav-wrapper ul.nav-list li a:hover,
+.nav-wrapper ul.nav-list li.active a {
+    color: var(--pure);
+    background-color: var(--primary);
+}
+
+.btn-link {
+    outline: none;
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+}
+
+.btn-link:hover {
+    background-color: transparent;
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+
+.header {
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+section.header h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: "Fontfabric nexa rust sans shadow", sans-serif;
+    color: rgb(115, 50, 32);
+
+}
+
+@font-face {
+    font-family: "Fontfabric nexa rust script l 01";
+    src: url("https://uploads-ssl.webflow.com/61f53606a22f7e1a572993f6/61f5575c2dcfa798831a7c38_Fontfabric%20-%20Nexa%20Rust%20Script%20L%2001.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+section.header img {
+    height: 50%
+}
+
+.hamburger {
+    display: none;
+}
+
+.mobile .hamburger {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.mobile .hamburger span {
+    background: var(--black);
+    width: 28px;
+    height: 2px;
+    margin-bottom: 8px;
+
+}
+
+.mobile ul.nav-list {
+    /* background: -webkit-linear-gradient(45deg, rgb(238, 241, 227), rgb(252, 252, 83));
+    background: linear-linear-gradient(45deg, rgb(238, 241, 227), rgb(252, 252, 83));
+     */
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -20;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+
+
+}
+
+.hamburger,
+.mobile ul.nav-list.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.mobile .hamburger span {
+    transform-origin: left;
+    transition: all .3s ease-in-out;
+}
+
+.mobile ul.nav-list li a {
+    font-size: 20px;
+}
+
+.back-video {
+    top: 0;
+    z-index: -1;
+    position: absolute;
+
+}
+
+@media(min-aspect-ratio: 16/9) {
+    .back-video {
+        width: 100%;
+    }
+}
+
+@media(max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: var(--black);
+    border-top: 3px solid white;
+}
+
+.footer-names {
+    margin-top: -5px;
+}
+
+.footer-names a {
+    text-decoration: none;
+    color: var(--dark-grey);
+    margin: 0 10px;
+}
+
+.footer-section p {
+    color: var(--pure);
+}
+
+.footer-names span {
+    background-color: var(--dark-grey);
+    font-size: 1.2rem;
+    display: inline-block;
+    height: 13px;
+    width: 3px;
+}
+
+.footer-icons {
+    color: var(--pure);
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#reg-main {
+    height: 100vh;
+    background-color: rgb(254, 250, 222);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+#reg-main #reg-login,#reg-main #reg-signup {
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 0 5px 0 grey;
+
+}
+
+/* career css
+ */
+ :root
+ {
+     --pure: #fff;
+     --font: #6b141d;
+ }
+ #background-section
+ {
+    margin-top: 5%;
+    margin-left: 25%;
+    
+     height: 100vh;
+     width: 800px;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #background-section img
+ {
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     z-index: -0;
+ }
+ #main-section
+ {
+     /* border: 1px solid #6b141d; */
+     box-shadow: 0 0 20px 0 black;
+     height: 90%;
+     width: 80%;
+     backdrop-filter: blur(5px);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     z-index: 1;
+ }
+ #career-header h1
+ {
+     font-size: 5rem;
+     color: beige;
+     text-align: center;
+     text-shadow: 1px 1px black;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     transition:  transform .2s;
+ }
+ 
+ form
+ {
+     /* background-color: red; */
+     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ 
+ }
+ th{
+     text-align: right;
+ }
+ label{
+     color: var(--pure);
+     font-size: 1.5rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 550;
+     text-shadow: 1px 1px var(--font); 
+     margin: 10px;
+ 
+     
+ }
+ input{
+     height: 30px;
+     font-size: 1rem;
+     border: none;
+     width: 300px;
+     border-radius: 3px;
+     color: white;
+     text-shadow: 1px 1px var(--font);
+     background-color: rgba(255, 0, 0, 0);
+     border-bottom: 2px solid white;
+     margin-bottom: 10px;
+     margin-left: 30px;
+ }
+ input::placeholder
+ {
+     color: rgb(255, 255, 255, .5);
+     text-shadow: 1px 1px var(--font);
+ }
+ #submit-button button{
+     height: 30px;
+     width: 200px;
+     border: none;
+     background-color: rgb(233, 52, 70, .8);
+     border-radius: 30px;
+     transition: .3s;
+     font-size: 1.5rem;
+     color: var(--pure);
+     margin-top: 10px;
+ 
+ }
+ #submit-button button:hover
+ {
+     background-color: rgb(233, 52, 70);
+     box-shadow: 0 0 1px 1px var(--pure);
+     transition: .3s;
+     width: 250px;
+     
+ }
+ 
+ 

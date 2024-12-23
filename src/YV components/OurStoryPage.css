@@ -1,0 +1,125 @@
+#Mainstorypage{
+    margin: 0px;
+    padding:0px;
+    background-color: white;
+
+    /* background-image: rgba(255, 223, 223, 0.829); */
+    font-family: sans-serif;
+    box-sizing: border-box;
+  
+}
+#ourstory{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px;
+}
+#ourstoryimg{
+    width:30%;
+    margin: 10px;
+   
+}
+#ourstoryimg img{
+    width:100%;
+    height: 450px;
+    border-radius: 45%;
+    z-index: 0;
+}
+#storycontent{
+    width: 50%;
+    font-size: 130%;
+    text-align: center;
+    margin: 5%;
+    border-style: ridge;
+    border-color: rgba(191, 223, 236, 0.452);
+    box-shadow: 0 0 5px 0 rgb(46, 2, 2);
+    padding:2%;
+}
+#rate{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* margin: 1%; */
+    padding: 3%;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+#Rating{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#Rating h1{
+    margin-top: 40px;
+   color: rgb(36, 34, 34);
+   top:-10%;
+   left:30%;
+    position: absolute;
+
+}
+.Ratebox{
+    margin: 2%;
+    padding: 10px;
+    width: 30%;
+    height: 60%;
+    border-style: ridge;
+    border-radius: 3%;
+    /* overflow: auto; */
+}
+#rate p{
+    margin: 2%;
+    padding: 2%;
+    font-size: 85%;
+}
+.Ratebox:hover{
+    box-shadow: 0 0 5px 0 rgb(46, 2, 2);
+    border-color: rgb(114, 115, 116);
+}
+#storycontent:hover{
+    box-shadow: 1px 2px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    #ourstory{
+        flex-direction: column;
+    }
+    #ourstory img{
+       width:100%;
+       height: 30%;
+    }
+    #ourstoryimg{
+        width: 45%;
+        height:auto;
+        align-items: center;
+    }
+    #storycontent{
+        width:100%;
+        margin: 3%;
+        padding: 3%;
+    }
+    #rate{
+        height: 130%;
+        flex-direction: column;
+        /* flex-wrap:wrap; */
+
+    }
+    #Rating{
+        display: block;
+    }
+    #Rating h1{
+        font-size: 120%;
+        left: 19%;
+        top: -5%;
+        text-align: center;
+    }
+    .Ratebox{
+        width: 80%;
+        height: auto;
+    }
+}

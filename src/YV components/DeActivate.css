@@ -1,0 +1,87 @@
+.deactivatemain{
+    display: flex;
+    position: relative;
+   
+
+}
+.deactivatemain img{
+    width:100%;
+    height: 80%;
+    z-index: 0;
+}
+.deactiavteBox{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    box-shadow: 0 0 3px 0 blue;
+    border-style: ridge;
+    z-index: 1;
+    width: 50%;
+    height: 50%;
+}
+.deactivateinput form{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+   
+}
+.deactiavteBox h3{
+    text-align: center;
+    font-size: 30px;
+    color: antiquewhite;
+    margin-top: 10px ;
+}
+.deactivateinput input{
+    /* margin: %; */
+    width: 45%;
+    box-shadow: 0 0 6px 0 rgb(27, 5, 5);
+    border: 4px solid maroon;
+    border-radius: 6px;
+
+    border-style: ridge;
+    text-align: center;
+    height: 60%;
+    margin: 7px 26%;
+    padding: 2% 3%;
+    font-size: 3vh;
+    
+}
+.deactivateinput select,.deactivateinput button{
+    margin: 1%;
+    width: 65%;
+    box-shadow: 0 0 6px 0 rgb(27, 5, 5);
+    border: 4px solid maroon; 
+    border-radius: 6px;
+    border-style: ridge;
+    text-align: center;
+    height: 80%;
+    margin: 5px 20%;
+    padding: 2% 3%;
+    font-size: 3vh;
+    background-color: rgb(207, 247, 234);
+}
+.deactivateinput select:hover{
+    background-color: rgb(20, 7, 54);
+    color: antiquewhite;
+}
+.deactivateinput button a{
+    text-decoration: none;
+    font: 45px;
+    color: rgb(18, 18, 19);
+}
+.deactivateinput button{
+    background-color: rgba(186, 218, 253, 0.801);
+    width:50%;
+    margin-left: 26%;
+
+}
+.deactivateinput button:hover{
+    transition: 0.3s;
+   transform: scale(1.07);
+
+    
+}
+.deactivateinput button a:hover{
+    color:black
+
+}

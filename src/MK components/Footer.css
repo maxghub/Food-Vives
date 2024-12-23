@@ -1,0 +1,92 @@
+.socialicons{
+    padding-left: 45%;
+    font-size: 50px;
+  }
+  .socialicons i{
+    padding-left: 7px;
+  }
+  .footer-text{
+    background-color: black;
+    color: white;
+    display: flex;
+  }
+  .footer-text .information-text ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer-text .information-text ul{
+    list-style: none;
+  }
+  .footer-text .information-text{
+    padding-left: 15%;
+    padding-top: 4%;
+  }
+  
+  .footer-text .product-categories ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer-text .product-categories{
+    padding-left: 10%;
+    padding-top: 4%;
+  }
+  .footer-text .location{
+    padding-left: 10%;
+    padding-top: 4%;
+  }
+  
+  .footer-text .location .social-networks ul li a{
+    color: white;
+    text-decoration: none;
+  
+  }
+  .footer-text .location .social-networks ul{
+    list-style: none;
+  }
+  .footer-text .location .social-networks{
+    margin-top:8%;
+  }
+  .footer-text h5{
+    color: #fcec91;
+  }
+  .last-End{
+    padding-top: 2%;
+    padding-left: 25%;
+    height: 100px;
+  }
+  .last-End logo{
+    padding-left: 23%;
+    font-size: 30px;
+    
+  }
+  .last-End logo i{
+    padding-left: 10px;
+  }
+  .last-End .allRigth{
+    padding-left: 19%;
+  }
+  .last-End p span{
+    color: rgb(226, 156, 156);
+  }
+  .last-End p a{
+    text-decoration: none;
+  }
+  .icons{
+    display: flex;
+    font-size: 50px;
+    padding-left: 45%;
+  }
+  .icon-end{
+    display: flex;
+    font-size: 40px;
+    padding-left: 27%;
+  }
+  .fb{
+    padding-left: 2%;
+  }
+  .ins{
+    padding-left: 2%;
+  }
+  .linkd{
+    padding-left: 2%;
+  }

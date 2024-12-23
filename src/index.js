@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './AS components/Homepage.css'
+import Homepage from './AS components/Homepage';
+import './YV components/OurStoryPage.css'
+import './YV components/menu.css'
+import './YV components/DeActivate.css'
+import './YV components/ContactUs.css'
+import './MK components/Footer.css'
+import './YV components/reservation.css'
+
+
+import Main from './AS components/Main';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    <Main/>
+  </>
+
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

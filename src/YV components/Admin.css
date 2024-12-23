@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 2% 0 0 0 ;
+    padding: 10px;
+    font-size: 10vh;
+}
+#admin{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 80%;
+    margin:2% 15%;
+    align-items: center;
+    justify-content: center;
+
+}
+.table{
+    /* position: relative; */
+    width: 30%;
+    height: 25%;
+    border: 5px;
+    border-style: ridge;
+    border-color: rgb(121, 120, 120);
+    border-radius: 10px;
+    margin: 5px ;
+    align-items: center;
+    padding: 4px;
+    justify-content: center;
+}
+.table a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5vh;
+    color: rgb(51, 51, 51);
+}
+.btn:hover{
+    background-color: rgb(153, 144, 241);
+    color: rgb(58, 9, 25);
+}
+.btn{
+    /* position: absolute; */
+    align-items: center;
+    justify-content: center;
+    margin: 17%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(155, 150, 150);
+}
